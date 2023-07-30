@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>HTML & CSS Cheatsheet</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#main">Main</a></li>
+            <li><a href="#html">HTML</a></li>
+            <li><a href="#css">CSS</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h1 id="main">General Overview of HTML and CSS</h1>
+            <h2>What is HTML?</h2>
+            <p>HTML is a declarative language; tells the computer what to do, without specifying the details of how exactly to do a certain action.
+                HTML's code is based on elements, structured in a top-to-right, top-to-bottom manner, without anything fancy going on.
+                The fancy stuff comes into play when we add <em>CSS</em> (more on that later).
+            </p>
+
+                <figure>
+                    <img src="https://i.insider.com/6019ac40ee136f00183a9de1?width=700" alt="some basic HTML">
+                    <figcaption>Source: Google</figcaption><br>
+                </figure>
+                    <h3>Is HTML hard to write in?</h3>
+                        <p>HTML is one of those languages that some people consider a real coding language, and other - not so much. In my personal opinion, 
+                        since elements are executable, and that semantics exist in writing out the code properly - that's a coding language in my books.
+                        However, keep in mind that no website or web app would exist without HTML. At all!
+                        </p>
+    </section>
+    <section>
+        <h1 id="html">Elements, Tables, Lists and Other features of the language</h1>
+            <h2>What elements?</h2>
+            <p>HTML,as we discussed just recently, is consisted of elements. It's important to understand what each part of the elements stands for what.
+                Elements consists of Opening tags and Closing tags tha surround the content of the element. 
+                Note: some of the tags are self-closing (such as &lt;link&gt;, &lt;meta&gt; and &lt;img&gt;,)
+            </p>
+                <h3>What the Tables?!</h3>
+                    <p>The below table will show the difference between non-sematic elements and semantic ones. 
+                        In most cases, you would want to opt for semantic tags as those are more accessibility and SEO-friendly.
+                        The only exception you would opt for non-sematics elements is if you ened to assign them particular classes, or ID's, to style them accordingly.
+                    </p>
+                <div class="semantics">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th scope="col">Non-Semantic</th>
+                                <th scope="col">Semantic</th>
+                            </tr> 
+                        </thead>
+                        <tbody>
+                            <tr>
+                               <td rowspan="9">&lt;div&gt;, &lt;span&gt;</td> 
+                               <td>&lt;header&gt;</td>  
+                            </tr>
+                            <tr></tr>
+                                <td>&lt;nav&gt;</td>  
+                             </tr>
+                             <tr>
+                                
+                                <td>&lt;section&gt;</td>  
+                             </tr>
+                             <tr>
+                                
+                                <td>&lt;article&gt;</td>  
+                             </tr>
+                             <tr>
+                               
+                                <td>&lt;main&gt;</td>  
+                             </tr>
+                             <tr>
+                                
+                                <td>&lt;footer&gt;</td>  
+                             </tr>
+                             <tr>
+                                
+                                <td>&lt;figure&gt;</td>  
+                             </tr>
+                             <tr>
+                               
+                                <td>&lt;figcaption&gt;</td>  
+                             </tr>
+                        </tbody>
+                    </table>
+                </div>
+    </section>
+    <section>
+        <h1 id="css">All about CSS</h1>
+            <figure>
+                <img src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics/css-declaration-small.png" alt="CSS ruleset anatomy"/>
+                <figcaption>This image illustrates the anatomy of a classical ruleset defined with the appropriate declaration in a separate CSS stylesheet.</figcaption>
+            </figure>
+            <br>
+            <h2>How do you CSS?</h2>
+            <p>CSS is a natural "spouse" of HTML that is responsible for making sure the whole webpage doesn't look bland and boring.
+                This normally involves a bunch of aspects, such as:
+            </p>
+            <ul>
+                <li>Changing typefaces and anything related to it</li>
+                <li>Adjusting colors of the element (and their background)</li>
+                <li>Positioning elements in a way that is outside of the typical HTML flow</li>
+                <li>and much more!...</li>
+            </ul>
+
+    </section>
+    <footer>
+        <p>Created by Illia, for the exercise designed by <a href="https://codecademy.com" target="_blank">Codecademy</a> 2023.</p>
+    </footer>
+</body>
+</html>
+
+<!-- include topics like: (for HTML) the anatomy of an element, 
+    different types of anchor tags, semantic vs non-semantic tags, 
+    tables, embedding different media, and navigating across different 
+    sections by linking Nav elements towards different page sections.
+
+CSS: Anatomy of a rule-set; different types of selectors, specificity, Box Model;
+    Color definitions, positioning and displaying elements, Typography and importing it
+-->

@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotomono/v22/L0x5DF4xlVMF-BfR8bXMIjhLq3-cXbKD.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotomono/v22/L0x5DF4xlVMF-BfR8bXMIjhLq3-cXbKD.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotomono/v22/L0x5DF4xlVMF-BfR8bXMIjhLq3-cXbKD.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+*, table {
+    font-family: 'Roboto Mono';
+}
+
+section {
+  margin: 0 250px;
+}
+
+nav {
+  background-color: ghostwhite;
+  padding: 7px;
+}
+
+nav li {
+    display: inline;
+    text-align: right;
+    height: 25px;
+    position: relative;
+}
+
+p {
+    padding: 10px 10px 50px 10px;
+}
+
+h1 {
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+h2 {
+    font-weight: 400;
+    padding-top: 5px;
+    border: 2px solid black;
+    max-width: 300px;
+}
+
+tr, td, th {
+  border: 1px solid black;
+}
+
+footer {
+  font-size: 12px;
+  text-align: center;
+  color: white;
+  background-color: indigo;
+}
+
+figcaption {
+  font-size: 12px;
+  font-style: italic;
+  padding-bottom: 5px;
+}
+
+footer a {
+  color: ghostwhite;
+}
